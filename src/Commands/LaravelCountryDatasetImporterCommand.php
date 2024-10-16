@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace PrimeKit\LaravelCountryDatasetImporter\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelCountryDatasetImporterCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-country-dataset-importer';
 
     public $description = 'My command';
 
