@@ -1,0 +1,27 @@
+preset: package
+
+namespace: PrimeKit\LaravelCountryDatasetImporter
+user-auth-model: App\Models\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ""
+
+console:
+  namespace: PrimeKit\LaravelCountryDatasetImporter\Console\Command
+
+model:
+  namespace: PrimeKit\LaravelCountryDatasetImporter\Models
+
+provider:
+  namespace: PrimeKit\LaravelCountryDatasetImporter\Providers
+
+testing:
+  namespace: PrimeKit\LaravelCountryDatasetImporter\Tests
